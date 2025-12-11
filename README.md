@@ -2,6 +2,7 @@
 
 **Advanced 3-player Texas Hold'em analyzer with progressive stage-by-stage analysis. Enter your cards and board cards progressively to see how win probabilities and AI recommendations change at each stage.**
 
+## Try this at [pokerhandpredictor](https://pokerhandpredictor.streamlit.app/)
 ---
 
 ## 📖 Table of Contents
@@ -61,7 +62,7 @@ pip install streamlit
 cd /path/to/poker_analyzer
 
 # 3. Run the app
-streamlit run poker_auto_regenerate.py
+streamlit run poker.py
 ```
 
 The app will open at `http://localhost:8501`
@@ -915,5 +916,5 @@ Perfect for:
 **Ready to analyze? Start with your hole cards! 🎰🎯**
 
 ```bash
-streamlit run poker_auto_regenerate.py
+streamlit run poker.py
 ```
